@@ -1,0 +1,8 @@
+:doctype: Book
+:experimental:
+:imagesdir: resources/images
+// :title-logo-image: image:resources/images/apiman_logo.png[pdfwidth=3.5in,align=center]
+:toc: left
+:toclevels: 3
+:linkattrs:
+:numbered:

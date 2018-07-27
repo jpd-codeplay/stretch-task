@@ -1,0 +1,6 @@
+
+// Attributes
+include::common-content/attributes.adoc[]
+
+// Cover page
+include::topics/procedure.adoc[]

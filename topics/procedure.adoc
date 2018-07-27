@@ -1,0 +1,76 @@
+
+= Create a GitHub page site
+
+This document describes the procedure to set up a basic GitHub pages site. It outlines how to create a repository and a html file. Generate a URL to access the site. Clone the repository to your desktop. Create a new file and commit it to the local repository, and push it back to GitHub.
+
+.Prerequisites
+
+* You must have Github account to set up gitHub pages.
+* An up to date version of Git installed on your operating system.
+
+.Procedure
+
+
+. Login to GitHub and Click *Start a Project*
+
+. Create a new repository by entering a *repository name*
+
+. Select *Public*
+
+. Select *Initialize this repository with a README*
+
+. Click *Create repository*
+
+. Select *Settings* in the menu. Navigate to the *GitHub Pages* section
+
+. Select *master branch* and click *save*
+
+. Select *Code* from the menu
+
+. Click *Create new file*. Under *Name your file* enter _index.html_
+
+. Type some HTML onto the editor and enter commit details
+
+. Click *Crommit new file*
+
+. Got to *Settings* in the menu. Under the *GitHub Pages* you can see you URL
+
+. Select *Clone or download*
+----
+# https://github.com/<your-username>/<your-page>.git
+----
+
+. Create a work directory on your computer and navigate to it
+
+. Configure a global user:
+----
+# git config --global user.name "your-name"
+# git config --global user.email "your-email@mail.com"
+----
+
+. Clone the repo from GitHub:
+----
+# git clone https://github.com/<your-username>/<your-page>.git
+----
+. Create a new file:
+----
+# touch menu.html
+----
+. Add the file to the repo:
+----
+# git add menu.html
+----
+. Commit the changes:
+----
+# git commit -m "add menu"
+----
+. Push to the master repo:
+----
+# git push -u origin master
+----
+
+.Additional resources
+
+* Find out more about GitHub pages at link:https://help.github.com/articles/what-is-github-pages/[What is GitHub Pages].
+
+* For more details, see link:https://help.github.com/categories/github-pages-basics/[Github Pages Basics].
